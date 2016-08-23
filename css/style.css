@@ -1,0 +1,58 @@
+/* designed by lse */
+
+
+@media screen{
+    
+
+    body {
+        background: url(img/paisaje.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .boxy{
+        background-color: rgba(0,0,0,0.5);
+        width: 200px;
+        color:#fff;
+        margin: 200px auto;
+        padding: 50px;
+        display: table;
+        text-align: center;
+        font-family: Papyrus,fantasy;
+        font-size: 120%;
+    }
+    
+    .boxy img {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    
+}
+
+@media print{
+    .navbar{
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+    .single-app{
+        display: none;
+    }
+    .single-app-page{
+        display: none;
+        
+    }
+    .single-app-page-admin{
+        display: none;
+    }
+    .form-group{
+        display: none;
+    }
+    .boxy{
+        display: table;
+    }
+}
