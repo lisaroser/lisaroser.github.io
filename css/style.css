@@ -1,22 +1,22 @@
 /* designed by lse */
 
 
-@media screen{
-    
+@media screen{ 
 
     body {
-        background: url(img/hrv.svg)  no-repeat center center fixed; 
+        background: url(img/paisaje.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        overflow: hidden;
     }
     
     .boxy{
         background-color: rgba(0,0,0,0.5);
-        width: 200px;
+        width: 350px;
         color:#fff;
-        margin: 200px auto;
+        margin: 150px auto;
         padding: 50px;
         display: table;
         text-align: center;
@@ -28,31 +28,49 @@
         width: 30%;
         margin: 0 auto;
     }
-
     
+    .boxy h1 {
+        font-family: Papyrus,fantasy;
+        font-size: 180%;
+    }
+    
+    .fondo{
+        font-family: Papyrus, fantasy;
+        color:#fff;
+        font-size: 130%;
+        text-align: center;
+        margin-bottom: 100px;
+        
+    }
+    
+    .fondo a{
+        color: #fff;
+    }
+    
+    .top{
+        padding: 30px;
+    }
+    
+    .top a{
+        color: rgba(255,255,255,.75);
+    }
+      
+    .top a:hover{
+        color: black;
+        
+    }
+    
+    .github{
+        display: inline;
+    }
+    
+    .github-noir{
+        display: none;
+    }
+        
+    }
 }
 
 @media print{
-    .navbar{
-        display: none;
-    }
-    #footer{
-        display: none;
-    }
-    .single-app{
-        display: none;
-    }
-    .single-app-page{
-        display: none;
-        
-    }
-    .single-app-page-admin{
-        display: none;
-    }
-    .form-group{
-        display: none;
-    }
-    .boxy{
-        display: table;
-    }
+
 }
